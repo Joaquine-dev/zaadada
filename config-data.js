@@ -1,0 +1,118 @@
+// AUTO-GENERE depuis config.json — ne pas modifier directement, modifier config.json puis relancer update-config.bat
+const SITE_CONFIG = {
+  "salon": {
+    "nom": "Cathy Coiffure",
+    "slogan": "Coiffeuse specialisee cheveux longs a Epalinges",
+    "description": "Tout le savoir-faire d'une coiffeuse specialisee cheveux longs allie aux derniers progres techniques, pour vous sublimer avec le sourire.",
+    "experience": "30+"
+  },
+  "contact": {
+    "telephone": "021 784 39 29",
+    "telephoneIntl": "+41217843929",
+    "mobile": "079 703 32 19",
+    "mobileIntl": "+41797033219",
+    "email": "cathy@cathy-coiffure.com",
+    "site": "https://www.cathy-coiffure.com"
+  },
+  "adresse": {
+    "rue": "Route de la Croix-Blanche 44",
+    "cp": "1066",
+    "ville": "Epalinges",
+    "canton": "VD",
+    "pays": "Suisse",
+    "complete": "Route de la Croix-Blanche 44, 1066 Epalinges (VD)"
+  },
+  "horaires": {
+    "standard": {
+      "periode": "Octobre - Mai",
+      "jours": {
+        "lundi":    { "ouvert": false, "texte": "Ferme" },
+        "mardi":    { "ouvert": false, "texte": "Travaux administratifs" },
+        "mercredi": { "ouvert": false, "texte": "Travaux administratifs" },
+        "jeudi":    { "ouvert": true,  "texte": "09h30 - 12h00 / 14h00 - 19h00" },
+        "vendredi": { "ouvert": true,  "texte": "09h30 - 12h00 / 14h00 - 19h00" },
+        "samedi":   { "ouvert": false, "texte": "Entretien du salon" },
+        "dimanche": { "ouvert": false, "texte": "Ferme" }
+      }
+    },
+    "ete": {
+      "periode": "1er juin - 30 septembre",
+      "jours": {
+        "lundi":    { "ouvert": false, "texte": "Ferme" },
+        "mardi":    { "ouvert": false, "texte": "Entretien du salon" },
+        "mercredi": { "ouvert": false, "texte": "Travaux administratifs" },
+        "jeudi":    { "ouvert": true,  "texte": "09h30 - 12h00 / 14h00 - 19h00" },
+        "vendredi": { "ouvert": true,  "texte": "09h30 - 12h00 / 14h00 - 19h00" },
+        "samedi":   { "ouvert": false, "texte": "Entretien du salon" },
+        "dimanche": { "ouvert": false, "texte": "Ferme" }
+      }
+    },
+    "dernierRdv": {
+      "dames": "18h00",
+      "messieurs": "18h30"
+    }
+  },
+  "tarifs": {
+    "devise": "CHF",
+    "prixHeure": "130.00",
+    "categories": {
+      "dames": {
+        "titre": "Dames",
+        "prestations": [
+          { "nom": "Shampooing + mise en plis",                   "prix": "34.00" },
+          { "nom": "Shampooing + mise en plis (cheveux longs)",   "prix": "des 47.50" },
+          { "nom": "Brushing ou touching",                        "prix": "41.00 - 54.00" },
+          { "nom": "Sechage sans mise en forme",                  "prix": "35.00" },
+          { "nom": "Coupe",                                       "prix": "37.00" },
+          { "nom": "Permanente + protection",                     "prix": "66.00 - 81.50" },
+          { "nom": "Defrisage",                                   "prix": "des 78.50" },
+          { "nom": "Teinture",                                    "prix": "44.00 - 56.50" },
+          { "nom": "Decoloration",                                "prix": "47.50 - 57.00" },
+          { "nom": "Coups de soleil avec coulage",                "prix": "des 94.00" },
+          { "nom": "Rincage",                                     "prix": "36.00" },
+          { "nom": "Manucure",                                    "prix": "36.00" }
+        ]
+      },
+      "messieurs": {
+        "titre": "Messieurs",
+        "prestations": [
+          { "nom": "Shampooing + coupe (sans sechage)",  "prix": "57.00" },
+          { "nom": "Shampooing + coupe + sechage",       "prix": "42.50" },
+          { "nom": "Coupe seche",                         "prix": "32.00" },
+          { "nom": "Shampooing + sechage",                "prix": "32.00" },
+          { "nom": "Rasage",                              "prix": "20.00" },
+          { "nom": "Taille moustache / barbe",            "prix": "15.50 - 33.00" },
+          { "nom": "Permanente",                          "prix": "67.00" },
+          { "nom": "Defrisage",                           "prix": "des 51.50" },
+          { "nom": "Coloration",                          "prix": "des 42.50" },
+          { "nom": "Rincage",                             "prix": "31.00" },
+          { "nom": "Manucure",                            "prix": "28.00" }
+        ]
+      },
+      "enfants": {
+        "titre": "Enfants",
+        "prestations": [
+          { "nom": "Coupe fillette",                 "prix": "54.00" },
+          { "nom": "Coupe jeune fille (des 13 ans)", "prix": "59.00" },
+          { "nom": "Coupe jeune garcon",             "prix": "39.50" }
+        ]
+      },
+      "supplements": {
+        "titre": "Supplements",
+        "prestations": [
+          { "nom": "Masque",             "prix": "6.50" },
+          { "nom": "Creme nutritive",    "prix": "6.50" },
+          { "nom": "Fixatif",            "prix": "6.50" },
+          { "nom": "Presifon",           "prix": "7.50" },
+          { "nom": "Shampooing special", "prix": "5.50" }
+        ]
+      }
+    }
+  },
+  "parking": "Parking gratuit a disposition de la clientele",
+  "palmares": [
+    { "annee": "1982", "medaille": "gold", "lieu": "Rome, Italie", "description": "Medaille d'or (equipe) et d'argent (individuelle)" },
+    { "annee": "1990", "medaille": "bronze", "lieu": "Championnat Suisse", "description": "3eme prix - Specialite : Mariage" },
+    { "annee": "1992", "medaille": "bronze", "lieu": "Boucles du Leman", "description": "3eme prix - Specialite : Mariage" }
+  ]
+};
