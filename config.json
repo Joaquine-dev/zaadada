@@ -1,8 +1,8 @@
 {
   "salon": {
     "nom": "Cathy Coiffure",
-    "slogan": "Coiffeuse specialisee cheveux longs a Epalinges",
-    "description": "Tout le savoir-faire d'une coiffeuse specialisee cheveux longs allie aux derniers progres techniques, pour vous sublimer avec le sourire.",
+    "slogan": "Coiffeuse spécialisee cheveux longs a Epalinges",
+    "description": "Tout le savoir-faire d'une coiffeuse spécialisee cheveux longs allie aux derniers progres techniques, pour vous sublimer avec le sourire.",
     "experience": "30+"
   },
 
@@ -107,7 +107,7 @@
           { "nom": "Creme nutritive",    "prix": "6.50" },
           { "nom": "Fixatif",            "prix": "6.50" },
           { "nom": "Presifon",           "prix": "7.50" },
-          { "nom": "Shampooing special", "prix": "5.50" }
+          { "nom": "Shampooing spécial", "prix": "5.50" }
         ]
       }
     }
@@ -118,21 +118,21 @@
   "palmares": [
     {
       "annee": "1982",
-      "medaille": "gold",
+      "médaille": "gold",
       "lieu": "Rome, Italie",
-      "description": "Medaille d'or (equipe) et d'argent (individuelle)"
+      "description": "médaille d'or (equipe) et d'argent (individuelle)"
     },
     {
       "annee": "1990",
-      "medaille": "bronze",
+      "médaille": "bronze",
       "lieu": "Championnat Suisse",
-      "description": "3eme prix - Specialite : Mariage"
+      "description": "3eme prix - spécialite : Mariage"
     },
     {
       "annee": "1992",
-      "medaille": "bronze",
+      "médaille": "bronze",
       "lieu": "Boucles du Leman",
-      "description": "3eme prix - Specialite : Mariage"
+      "description": "3eme prix - spécialite : Mariage"
     }
   ]
 }

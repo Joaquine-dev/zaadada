@@ -25,7 +25,7 @@ const GALERIES_DATA = {
     steps: [
       { src: "galeries/permanentes/01-avant.jpg", label: "Avant" },
       { src: "galeries/permanentes/02-pendant.jpg", label: "Pendant" },
-      { src: "galeries/permanentes/03-apres.jpg", label: "Apres" }
+      { src: "galeries/permanentes/03-apres.jpg", label: "Après" }
     ]
   },
   "brulage": {
@@ -34,7 +34,7 @@ const GALERIES_DATA = {
       { src: "galeries/brulage/01-avant.jpg", label: "Avant" },
       { src: "galeries/brulage/02-pendant.jpg", label: "Pendant" },
       { src: "galeries/brulage/03-pendant.png", label: "Pendant" },
-      { src: "galeries/brulage/04-resultat.jpg", label: "Resultat" }
+      { src: "galeries/brulage/04-resultat.jpg", label: "Résultat" }
     ]
   },
   "ondulations": {
@@ -70,7 +70,8 @@ const GALERIES_DATA = {
     images: [
       { src: "galeries/palmares/01.jpg" },
       { src: "galeries/palmares/02.png" },
-      { src: "galeries/palmares/03.jpg" }
+      { src: "galeries/palmares/03.jpg" },
+      { src: "galeries/palmares/04.png" }
     ]
   },
   "mariees": {

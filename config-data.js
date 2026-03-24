@@ -2,9 +2,9 @@
 const SITE_CONFIG = {
   "salon": {
     "nom": "Cathy Coiffure",
-    "slogan": "Coiffeuse specialisee cheveux longs a Epalinges",
-    "description": "Tout le savoir-faire d'une coiffeuse specialisee cheveux longs allie aux derniers progres techniques, pour vous sublimer avec le sourire.",
-    "experience": "30+"
+    "slogan": "Coiffeuse spécialisée cheveux longs à Épalinges",
+    "description": "Tout le savoir-faire d'une coiffeuse spécialisée cheveux longs allié aux derniers progrès techniques, pour vous sublimer avec le sourire.",
+    "experience": "45+"
   },
   "contact": {
     "telephone": "021 784 39 29",
@@ -26,25 +26,25 @@ const SITE_CONFIG = {
     "standard": {
       "periode": "Octobre - Mai",
       "jours": {
-        "lundi":    { "ouvert": false, "texte": "Ferme" },
-        "mardi":    { "ouvert": false, "texte": "Travaux administratifs" },
-        "mercredi": { "ouvert": false, "texte": "Travaux administratifs" },
+        "lundi":    { "ouvert": false, "texte": "Fermé" },
+        "mardi":    { "ouvert": false, "texte": "Fermé" },
+        "mercredi": { "ouvert": false, "texte": "Fermé" },
         "jeudi":    { "ouvert": true,  "texte": "09h30 - 12h00 / 14h00 - 19h00" },
         "vendredi": { "ouvert": true,  "texte": "09h30 - 12h00 / 14h00 - 19h00" },
-        "samedi":   { "ouvert": false, "texte": "Entretien du salon" },
-        "dimanche": { "ouvert": false, "texte": "Ferme" }
+        "samedi":   { "ouvert": false, "texte": "Fermé" },
+        "dimanche": { "ouvert": false, "texte": "Fermé" }
       }
     },
     "ete": {
       "periode": "1er juin - 30 septembre",
       "jours": {
-        "lundi":    { "ouvert": false, "texte": "Ferme" },
-        "mardi":    { "ouvert": false, "texte": "Entretien du salon" },
-        "mercredi": { "ouvert": false, "texte": "Travaux administratifs" },
+        "lundi":    { "ouvert": false, "texte": "Fermé" },
+        "mardi":    { "ouvert": false, "texte": "Fermé" },
+        "mercredi": { "ouvert": false, "texte": "Fermé" },
         "jeudi":    { "ouvert": true,  "texte": "09h30 - 12h00 / 14h00 - 19h00" },
         "vendredi": { "ouvert": true,  "texte": "09h30 - 12h00 / 14h00 - 19h00" },
-        "samedi":   { "ouvert": false, "texte": "Entretien du salon" },
-        "dimanche": { "ouvert": false, "texte": "Ferme" }
+        "samedi":   { "ouvert": false, "texte": "Fermé" },
+        "dimanche": { "ouvert": false, "texte": "Fermé" }
       }
     },
     "dernierRdv": {
@@ -60,32 +60,30 @@ const SITE_CONFIG = {
         "titre": "Dames",
         "prestations": [
           { "nom": "Shampooing + mise en plis",                   "prix": "34.00" },
-          { "nom": "Shampooing + mise en plis (cheveux longs)",   "prix": "des 47.50" },
+          { "nom": "Shampooing + mise en plis (cheveux longs)",   "prix": "dès 47.50" },
           { "nom": "Brushing ou touching",                        "prix": "41.00 - 54.00" },
-          { "nom": "Sechage sans mise en forme",                  "prix": "35.00" },
+          { "nom": "Séchage sans mise en forme",                  "prix": "35.00" },
           { "nom": "Coupe",                                       "prix": "37.00" },
           { "nom": "Permanente + protection",                     "prix": "66.00 - 81.50" },
-          { "nom": "Defrisage",                                   "prix": "des 78.50" },
+          { "nom": "Défrisage",                                   "prix": "dès 78.50" },
           { "nom": "Teinture",                                    "prix": "44.00 - 56.50" },
-          { "nom": "Decoloration",                                "prix": "47.50 - 57.00" },
-          { "nom": "Coups de soleil avec coulage",                "prix": "des 94.00" },
-          { "nom": "Rincage",                                     "prix": "36.00" },
+          { "nom": "Décoloration",                                "prix": "47.50 - 57.00" },
+          { "nom": "Coups de soleil avec coulage",                "prix": "dès 94.00" },
+          { "nom": "Rinçage",                                     "prix": "36.00" },
           { "nom": "Manucure",                                    "prix": "36.00" }
         ]
       },
       "messieurs": {
         "titre": "Messieurs",
         "prestations": [
-          { "nom": "Shampooing + coupe (sans sechage)",  "prix": "57.00" },
-          { "nom": "Shampooing + coupe + sechage",       "prix": "42.50" },
-          { "nom": "Coupe seche",                         "prix": "32.00" },
-          { "nom": "Shampooing + sechage",                "prix": "32.00" },
-          { "nom": "Rasage",                              "prix": "20.00" },
-          { "nom": "Taille moustache / barbe",            "prix": "15.50 - 33.00" },
+          { "nom": "Shampooing + coupe (sans séchage)",  "prix": "57.00" },
+          { "nom": "Shampooing + coupe + séchage",       "prix": "42.50" },
+          { "nom": "Coupe sèche",                         "prix": "32.00" },
+          { "nom": "Shampooing + séchage",                "prix": "32.00" },
           { "nom": "Permanente",                          "prix": "67.00" },
-          { "nom": "Defrisage",                           "prix": "des 51.50" },
-          { "nom": "Coloration",                          "prix": "des 42.50" },
-          { "nom": "Rincage",                             "prix": "31.00" },
+          { "nom": "Défrisage",                           "prix": "dès 51.50" },
+          { "nom": "Coloration",                          "prix": "dès 42.50" },
+          { "nom": "Rinçage",                             "prix": "31.00" },
           { "nom": "Manucure",                            "prix": "28.00" }
         ]
       },
@@ -93,26 +91,26 @@ const SITE_CONFIG = {
         "titre": "Enfants",
         "prestations": [
           { "nom": "Coupe fillette",                 "prix": "54.00" },
-          { "nom": "Coupe jeune fille (des 13 ans)", "prix": "59.00" },
+          { "nom": "Coupe jeune fille (dès 13 ans)", "prix": "59.00" },
           { "nom": "Coupe jeune garcon",             "prix": "39.50" }
         ]
       },
       "supplements": {
-        "titre": "Supplements",
+        "titre": "Suppléments",
         "prestations": [
           { "nom": "Masque",             "prix": "6.50" },
-          { "nom": "Creme nutritive",    "prix": "6.50" },
+          { "nom": "Crème nutritive",    "prix": "6.50" },
           { "nom": "Fixatif",            "prix": "6.50" },
           { "nom": "Presifon",           "prix": "7.50" },
-          { "nom": "Shampooing special", "prix": "5.50" }
+          { "nom": "Shampooing spécial", "prix": "5.50" }
         ]
       }
     }
   },
-  "parking": "Parking gratuit a disposition de la clientele",
+  "parking": "Parking gratuit à disposition de la clientèle",
   "palmares": [
-    { "annee": "1982", "medaille": "gold", "lieu": "Rome, Italie", "description": "Medaille d'or (equipe) et d'argent (individuelle)" },
-    { "annee": "1990", "medaille": "bronze", "lieu": "Championnat Suisse", "description": "3eme prix - Specialite : Mariage" },
-    { "annee": "1992", "medaille": "bronze", "lieu": "Boucles du Leman", "description": "3eme prix - Specialite : Mariage" }
+    { "annee": "1982", "médaille": "gold", "lieu": "Rome, Italie", "description": "Coppa Latina — Vincitrice assoluta, Médaille d'or (Confédération Mondiale de la Coiffure)" },
+    { "annee": "1990", "médaille": "bronze", "lieu": "Championnat Suisse", "description": "3ème prix - Spécialité : Mariage" },
+    { "annee": "1992", "médaille": "bronze", "lieu": "Boucles du Léman", "description": "3ème prix - Spécialité : Mariage" }
   ]
 };

@@ -328,3 +328,54 @@ if (!document.querySelector('.hero')) {
     // Re-observe
     document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
 })();
+
+// ============================================
+// MODAL PALMARES
+// ============================================
+(function() {
+    const overlay = document.getElementById('palmaresModal');
+    if (!overlay) return;
+    const titleEl = document.getElementById('palmaresModalTitle');
+    const descEl = document.getElementById('palmaresModalDesc');
+    const imagesEl = document.getElementById('palmaresModalImages');
+
+    document.querySelectorAll('.hero-palmares-item[data-modal-title]').forEach(item => {
+        item.addEventListener('click', (e) => {
+            e.stopPropagation();
+            titleEl.textContent = item.dataset.modalTitle;
+            descEl.textContent = item.dataset.modalDesc;
+            imagesEl.innerHTML = '';
+            if (item.dataset.modalImg) {
+                const img = document.createElement('img');
+                img.src = item.dataset.modalImg;
+                img.alt = item.dataset.modalTitle;
+                img.className = 'palmares-modal-main-img';
+                imagesEl.appendChild(img);
+            }
+            if (item.dataset.modalOverlay) {
+                const ovImg = document.createElement('img');
+                ovImg.src = item.dataset.modalOverlay;
+                ovImg.alt = 'Diplôme';
+                ovImg.className = 'palmares-modal-overlay-img';
+                imagesEl.appendChild(ovImg);
+            }
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) closeModal();
+    });
+
+    overlay.querySelector('.palmares-modal-close').addEventListener('click', closeModal);
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && overlay.classList.contains('active')) closeModal();
+    });
+
+    function closeModal() {
+        overlay.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+})();

@@ -19,6 +19,6 @@ NOTE :
 ------
   Pour ajouter une nouvelle distinction, il faut aussi
   ajouter la carte correspondante dans evenement.html
-  (annee, medaille, titre, description) avec l'attribut
+  (annee, médaille, titre, description) avec l'attribut
   data-galerie-img="palmares/{index}" sur le <img>.
 ================================================================
